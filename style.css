@@ -27,6 +27,7 @@
             11.4  Social links
             11.5  Owl Carousel Modified
     12. Responsive
+    13. Footer
 
 */
 
@@ -1354,4 +1355,38 @@ section {
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* -------------------------------------
+            13. FOOTER
+* ------------------------------------- */
+.footer {
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.footer:before {
+  content: "";
+  background: linear-gradient(to right, #101010 50%, #444);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.footer:after {
+  content: "";
+  background: url("assets/images/pattern.png");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
 }
