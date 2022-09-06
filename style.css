@@ -405,9 +405,14 @@ section {
 * ------------------------------------- */
 .img-holder {
   position: relative;
+  margin: 15px 0 20px;
+}
+/* -------------------------------------
+.img-holder {
+  position: relative;
   margin: 20px 0 30px;
 }
-
+* ------------------------------------- */
 .tweet {
   margin-top: 20px;
 }
