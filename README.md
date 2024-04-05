@@ -1,1 +1,1 @@
-# https://github.com/doonay/resume.github.io
+# https://doonay.github.io/resume/
